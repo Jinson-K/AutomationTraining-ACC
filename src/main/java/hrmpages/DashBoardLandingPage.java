@@ -1,17 +1,17 @@
-package HrmPages;
+package hrmpages;
 
-import Common.TestCommon;
+import common.TestCommon;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DashBoard_LandingPage extends TestCommon {
+public class DashBoardLandingPage extends TestCommon {
 
 
     @FindBy(linkText = "Admin")
     WebElement Admintab;
 
-    public DashBoard_LandingPage(){
+    public DashBoardLandingPage(){
         PageFactory.initElements(driver,this);
     }
 

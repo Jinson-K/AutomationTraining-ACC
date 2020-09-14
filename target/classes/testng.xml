@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="Regression1"   >
         <packages>
-            <package name="HRM_Tests" />
+            <package name="hrmtests" />
         </packages>
     </test>
 </suite>
